@@ -1,5 +1,12 @@
 'use strict';
 
+function main(args) {
+    //pausecomp(200)
+    return { node:"Edge-Server", value: "Pong" }
+    //return { body: "Edge-local Person: 95%" }
+
+}
+
 console.log('Loading function');
 
 exports.handler = (event, context, callback) => {
